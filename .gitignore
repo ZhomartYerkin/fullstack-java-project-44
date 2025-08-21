@@ -1,1 +1,35 @@
+# dependencies
 node_modules/
+
+# environment
+.env
+.env.local
+
+# build output
+dist/
+build/
+coverage/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# npm/yarn/pnpm artifacts
+*.tgz
+*.lock
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# asciinema recordings
+*.cast
+
