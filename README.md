@@ -11,6 +11,16 @@ A study project consisting of small console games.
 This repository contains:
 - **brain-games** – greeting (CLI only)
 - **brain-even** – “Even Numbers Check” game
+- **brain-calc** — calculator (+, -, *) with 3 random rounds
+
+## Demo: brain-calc
+
+### Success run
+[![asciicast](https://asciinema.org/a/jSXOBQPn96Qdhja7HlK14WZkm.svg)](https://asciinema.org/a/jSXOBQPn96Qdhja7HlK14WZkm)
+
+### Fail run
+[![asciicast](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1.svg)](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1)
+
 
 ## Requirements
 
