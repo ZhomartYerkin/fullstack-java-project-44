@@ -22,6 +22,14 @@ This repository contains:
 [![asciicast](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1.svg)](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1)
 
 
+## Demo: brain-gcd
+
+### Success run
+[![asciicast](https://asciinema.org/a/18xGhhBInHHSnRgsK1YTsp9wx.svg)](https://asciinema.org/a/18xGhhBInHHSnRgsK1YTsp9wx)
+
+### Fail run
+[![asciicast](https://asciinema.org/a/DtUCLpQ0snC0MHr3y6u1oOIZQ.svg)](https://asciinema.org/a/DtUCLpQ0snC0MHr3y6u1oOIZQ)
+
 ## Requirements
 
 - Node.js ≥ 18
