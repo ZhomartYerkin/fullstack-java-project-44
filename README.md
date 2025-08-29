@@ -12,12 +12,12 @@ This repository contains:
 - **brain-games** – greeting (CLI only)
 - **brain-even** – “Even Numbers Check” game
 - **brain-calc** — calculator (+, -, *) with 3 random rounds
+- **brain-progression** — find the missing number in random progression
 
 ## Demo: brain-calc
 
 ### Success run
 [![asciicast](https://asciinema.org/a/jSXOBQPn96Qdhja7HlK14WZkm.svg)](https://asciinema.org/a/jSXOBQPn96Qdhja7HlK14WZkm)
-
 ### Fail run
 [![asciicast](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1.svg)](https://asciinema.org/a/wDFqlNnYZe52MyBcn4bSLmbI1)
 
@@ -26,9 +26,17 @@ This repository contains:
 
 ### Success run
 [![asciicast](https://asciinema.org/a/18xGhhBInHHSnRgsK1YTsp9wx.svg)](https://asciinema.org/a/18xGhhBInHHSnRgsK1YTsp9wx)
-
 ### Fail run
 [![asciicast](https://asciinema.org/a/DtUCLpQ0snC0MHr3y6u1oOIZQ.svg)](https://asciinema.org/a/DtUCLpQ0snC0MHr3y6u1oOIZQ)
+
+
+## Demo: brain-progression
+
+### Success run
+[![asciicast](https://asciinema.org/a/Y5SCpl4LZWF0IF4JhOZPInjvD.svg)](https://asciinema.org/a/Y5SCpl4LZWF0IF4JhOZPInjvD)
+### Fail run
+[![asciicast](https://asciinema.org/a/SaKO2kOgOG6C6tbAVdMXzhYvB.svg)](https://asciinema.org/a/SaKO2kOgOG6C6tbAVdMXzhYvB)
+
 
 ## Requirements
 
