@@ -18,10 +18,10 @@ export default [
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/no-trailing-spaces': 'error',
-      '@stylistic/arrow-parens': ['error', 'always'], // ⬅️ требуем скобки
+      '@stylistic/arrow-parens': ['error', 'as-needed'], //
       '@stylistic/indent': ['error', 2],
       '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
-      '@stylistic/comma-dangle': ['error', 'always-multiline'], // ⬅️ хвостовые запятые
+      '@stylistic/comma-dangle': ['error', 'always-multiline'], //
     },
   },
 ]

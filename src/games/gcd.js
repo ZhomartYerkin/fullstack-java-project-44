@@ -2,7 +2,7 @@ import runGame from '../index.js'
 
 const RULES = 'Find the greatest common divisor of given numbers.'
 
-const abs = (n) => (n < 0 ? -n : n)
+const abs = n => (n < 0 ? -n : n)
 
 const gcd = (a, b) => {
   let x = abs(a)
