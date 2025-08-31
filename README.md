@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/ZhomartYerkin/fullstack-java-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ZhomartYerkin/fullstack-java-project-44/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ZhomartYerkin_fullstack-java-project-44&metric=alert_status)](https://sonarcloud.io/dashboard?id=ZhomartYerkin_fullstack-java-project-44)
 
+---
 # Brain Games
 
 A study project consisting of small console games.
@@ -49,6 +50,8 @@ Answer "yes" if given number is prime. Otherwise answer "no".
 #### Demo (fail)
 [![asciicast](https://asciinema.org/a/0ETur0bxUM7spbCKyGgqwnBFT.svg)](https://asciinema.org/a/0ETur0bxUM7spbCKyGgqwnBFT)
 
+
+
 ## Requirements
 
 - Node.js ≥ 18
@@ -61,3 +64,4 @@ git clone https://github.com/ZhomartYerkin/fullstack-java-project-44.git
 cd fullstack-java-project-44
 npm install
 npm link
+
