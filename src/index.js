@@ -22,7 +22,5 @@ export default function runGame(rules, getRoundData) {
       return
     }
   }
-
   console.log(`Congratulations, ${name}!`)
-
 }
