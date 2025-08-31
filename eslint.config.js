@@ -10,7 +10,7 @@ export default [
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-      globals: { ...globals.node }
+      globals: { ...globals.node },
     },
     plugins: { '@stylistic': stylistic },
     rules: {
@@ -18,9 +18,10 @@ export default [
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/no-trailing-spaces': 'error',
-      '@stylistic/arrow-parens': ['error', 'as-needed'],
+      '@stylistic/arrow-parens': ['error', 'always'], // ⬅️ требуем скобки
       '@stylistic/indent': ['error', 2],
-      '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: true }]
-    }
-  }
+      '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+      '@stylistic/comma-dangle': ['error', 'always-multiline'], // ⬅️ хвостовые запятые
+    },
+  },
 ]
