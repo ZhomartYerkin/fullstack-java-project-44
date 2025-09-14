@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.1",
-  "description": "[![Actions Status](https://github.com/ZhomartYerkin/fullstack-java-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ZomartYerkin/fullstack-java-project-44/actions)",
+  "description": "A collection of console-based mini games (Brain Games) built with Node.js, featuring a shared game engine and multiple challenges: even, calc, gcd, progression, and prime.",
   "homepage": "https://github.com/ZhomartYerkin/fullstack-java-project-44#readme",
   "bugs": {
     "url": "https://github.com/ZhomartYerkin/fullstack-java-project-44/issues"
@@ -14,6 +14,8 @@
   "author": "Zhomart Yerkin",
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -30,7 +32,7 @@
   "devDependencies": {
     "@eslint/js": "^9.34.0",
     "@stylistic/eslint-plugin": "^2.13.0",
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "globals": "^16.3.0"
   }
 }

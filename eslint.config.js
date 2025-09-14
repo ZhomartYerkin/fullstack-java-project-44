@@ -4,6 +4,7 @@ import stylistic from '@stylistic/eslint-plugin'
 import globals from 'globals'
 
 export default [
+  { ignores: ['node_modules/**', 'dist/**', 'coverage/**'] },
   js.configs.recommended,
   {
     files: ['**/*.js'],
@@ -18,7 +19,7 @@ export default [
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/no-trailing-spaces': 'error',
-      '@stylistic/arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+      '@stylistic/arrow-parens': ['error', 'always'],
       '@stylistic/indent': ['error', 2],
       '@stylistic/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
       '@stylistic/comma-dangle': ['error', 'always-multiline'], //
