@@ -19,7 +19,7 @@ const getRoundData = () => {
   const op = OPS[rand(0, OPS.length - 1)]
   return {
     question: `${a} ${op} ${b}`,
-    answer: compute(a, b, op),
+    answer: String(compute(a, b, op)),
   }
 }
 
