@@ -13,7 +13,7 @@ export default function runGame(rules, getRoundData) {
     console.log(`Question: ${question}`)
     const answer = readlineSync.question('Your answer: ').trim()
 
-    if (answer === String(correctAnswer)) {
+    if (answer === correctAnswer) {
       console.log('Correct!')
     }
     else {
