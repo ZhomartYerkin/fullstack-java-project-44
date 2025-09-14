@@ -1,6 +1,6 @@
 export const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
-export const abs = (n) => (n < 0 ? -n : n)
+export const abs = n => (n < 0 ? -n : n)
 
 export const gcd = (a, b) => {
   let x = abs(a)
