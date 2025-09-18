@@ -1,7 +1,15 @@
 import runGame from '../index.js'
-import { rand, buildProgression } from '../utils.js'
+import { rand } from '../utils.js'
 
 const RULES = 'What number is missing in the progression?'
+
+const buildProgression = (start, step, length) => {
+  const result = []
+  for (let i = 0; i < length; i += 1) {
+    result.push(start + i * step)
+  }
+  return result
+}
 
 const getRoundData = () => {
   const length = 10

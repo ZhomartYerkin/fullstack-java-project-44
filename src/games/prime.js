@@ -1,7 +1,17 @@
 import runGame from '../index.js'
-import { rand, isPrime } from '../utils.js'
+import { rand } from '../utils.js'
 
 const DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+const isPrime = (n) => {
+  if (n < 2) return false
+  if (n % 2 === 0) return n === 2
+  const limit = Math.floor(Math.sqrt(n))
+  for (let d = 3; d <= limit; d += 2) {
+    if (n % d === 0) return false
+  }
+  return true
+}
 
 const makeRound = () => {
   const number = rand(2, 200)
